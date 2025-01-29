@@ -1,0 +1,88 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header{
+    background-color: lightblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    background-image: url(../img/pattern.png) ;
+    background-size: 400px;
+}
+
+
+
+
+#header-logo{
+width: 150px; 
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+/* Article section */
+.main-title {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.author{
+    color: grey;
+
+}
+.Author-name{
+    color: blue;
+
+}
+.date{
+    color: grey;
+    margin-bottom: 15px;
+
+}
+.caption{
+    font-size: 12px;
+}
+.highlight{
+    font-weight: 400;
+    background-color: yellow;
+}
+
+.list{
+    margin-left: 20px;
+}
+/* Tabella */
+.large.col{
+    width: 50%;
+}
+.heading-row{
+    background-color: rgb(173, 192, 230);
+    color: white;
+    text-align: left;
+}
+.odd-row{
+    background-color: lightblue;
+}
+.even-row{
+
+} 
+
+/* FINE MAIN */
+/* FOOTER */
+.footer{
+    background-color: rgb(79, 79, 188);
+    
+}
+.Copyright{
+    color: white;
+    text-align: center;
+    padding: 20px 0px;   
+}
+/* FINE FOOTER */

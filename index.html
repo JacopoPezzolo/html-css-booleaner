@@ -5,87 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <p>Scritto da The Booleaner il 10/10/2020</p>
-
-        <!-- Sezione Immagini -->
-        <div>
-            <img src="./img/tim-1.jpg" alt="Tim Berners-Lee durante discorso">
-            <img src="./img/tim-2.jpg" alt="Tim Berners-Lee in posa">
-            <p>
-                1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
-            </p>
-            <p>
-                2nd Photo: Wikimedia, by Paul Clarke
-            </p>
-        </div>
+    <header class="header">
+        <div class="container">
+        <img id="header-logo" src="./img/logo.svg" alt="logo">
+    </div>
     </header>
     <main>
-        <!-- sezione testo -->
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio reprehenderit laudantium totam repudiandae
-            nemo, velit alias quasi voluptate sunt explicabo error at exercitationem natus necessitatibus consequuntur
-            qui rerum temporibus molestiae!
-        </p>
-        <!-- sezione elenco -->
-        <div>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, non!</li>
-                <li> Velit amet, unde commodi vero nisi ipsam repellat aliquam aliquid?</li>
-                <li>
-                    Culpa iusto recusandae, eligendi dolores porro explicabo ipsam. Praesentium, sit?
-                </li>
-            </ul>
+        <div class="container">
+        <section>
+            <h1 class="main-title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee
+            </h1>
+            <div class="author">
+                Scritto da <span class="Author-name">The Booleaner </span>
+            </div>
+            <div class="date">il 10/10/2020</div>
 
-        </div>
+            <!-- Sezione Immagini -->
+            <div>
+                <img src="./img/tim-1.jpg" alt="Tim Berners-Lee durante discorso">
+                <img src="./img/tim-2.jpg" alt="Tim Berners-Lee in posa">
+                <div class="caption">
+                <p>
+                    1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
+                </p>
+                <p>
+                    2nd Photo: Wikimedia, by Paul Clarke
+                </p>
+            </div>
+            </div>
+            <!-- sezione testo -->
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio reprehenderit laudantium totam
+                repudiandae
+                nemo, <strong class="highlight">velit alias quasi voluptate sunt explicabo error </strong>at exercitationem natus necessitatibus
+                consequuntur
+                qui rerum temporibus molestiae!
+            </p>
+        </section>
+        <!-- sezione elenco -->
+        <section>
+            <div>
+                <ul class="list">
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, non!</li>
+                    <li> Velit amet, unde commodi vero nisi ipsam repellat aliquam aliquid?</li>
+                    <li>
+                        Culpa iusto recusandae, eligendi dolores porro explicabo ipsam. Praesentium, sit?
+                    </li>
+                </ul>
+            </div>
+        </section>
+
         <!-- sezione tabella -->
+         <table>
         <thead>
-            <tr>
+            <tr class="heading-row">
                 <th>Lorem ipsum dolor</th>
                 <th>
                     Lorem ipsum dolor
                 </th>
-                <th>
+                <th class="large-col">
                     Lorem ipsum dolor
                 </th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="odd-row">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolore aliquid repellat maxime
-                    tempora molestias similique quo officiis nostrum dignissimos rerum voluptatibus eos rem, laboriosam
-                    veritatis nesciunt dolorem nisi accusamus?</td>
+                </td>
             </tr>
-            <tr>
+            <tr class="even-row">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolore aliquid repellat maxime
-                    tempora molestias similique quo officiis nostrum dignissimos rerum voluptatibus eos rem, laboriosam
-                    veritatis nesciunt dolorem nisi accusamus?</td>
+                </td>
             </tr>
-            <tr>
+            <tr class="odd-row">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolore aliquid repellat maxime
-                    tempora molestias similique quo officiis nostrum dignissimos rerum voluptatibus eos rem, laboriosam
-                    veritatis nesciunt dolorem nisi accusamus?</td>
+                </td>
             </tr>
         </tbody>
+    </table>
         <div>
 
         </div>
-
+    </div>
     </main>
-    <footer>
-        <p>
-        Copyright The Booleaner - Tutti i diritti riservati
-    </p>
+    <footer class="footer">
+        <p class="Copyright">
+            Copyright The Booleaner - Tutti i diritti riservati
+        </p>
 
     </footer>
 </body>
