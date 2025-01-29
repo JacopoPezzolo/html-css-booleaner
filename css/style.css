@@ -49,6 +49,7 @@ width: 150px;
 }
 .caption{
     font-size: 12px;
+    margin-bottom: 25px;
 }
 .highlight{
     font-weight: 400;
@@ -56,6 +57,7 @@ width: 150px;
 }
 
 .list{
+    margin-top: 25px;
     margin-left: 20px;
 }
 /* Tabella */
@@ -73,11 +75,14 @@ width: 150px;
 .even-row{
 
 } 
+.table{
+    margin : 30px ;
+}
 
 /* FINE MAIN */
 /* FOOTER */
 .footer{
-    background-color: rgb(79, 79, 188);
+    background-color: rgb(50, 50, 131);
     
 }
 .Copyright{
